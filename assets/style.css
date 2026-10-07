@@ -17,12 +17,30 @@ header {
     font-style: italic;
 }
 .tagline {
-    color: rgb(red green blue / alpha);
+    color: #F44A4A;
     font-style: italic;
 }
 nav a {
     color: hsl(67, 98%, 26%);
     font-weight: bold;
     line-height: 3;
-    
+}
+nav a:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+main h2, main h3{
+    color: #1F3D7A;
+}
+main h3 {
+    font-size: 1.2rem;
+}
+#chi-sono {
+    background-color: #ffffff;
+    text-align: justify;
+}
+#chi-sono p:first-of-type {
+    font-size: 1.1em;
+    font-style: italic;
+    color: #1F3D7A;
 }
