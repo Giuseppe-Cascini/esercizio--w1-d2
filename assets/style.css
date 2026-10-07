@@ -59,3 +59,33 @@ main h3 {
 .project:nth-of-type(even) {
     background-color: rgba(255, 255, 255, 0.856);
 }
+label {
+    font-weight: bold;
+    color: #1F3D7A;
+}
+input, textarea {
+    font-family: "Helvetica Neue" , Arial, sans-serif;
+    font-size: 1rem;
+    width: 60%;
+    background-color: #ffffff;
+}
+input:focus, textarea:focus {
+    background-color:#232323 ;
+    color: white;
+}
+button {
+    color:white;
+    background-color:hsl(220, 60%, 30%);
+    font-weight:bold;
+    width: 30%;
+
+}
+button:hover {
+    color: hsl(220, 60%, 45%)
+}
+#site-footer {
+    background-color:#172136 ;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.9rem;
+}
