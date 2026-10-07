@@ -89,3 +89,6 @@ button:hover {
     text-align: center;
     font-size: 0.9rem;
 }
+input[type="checkbox"] {
+    width: auto;
+}
