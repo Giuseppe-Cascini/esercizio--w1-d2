@@ -171,3 +171,7 @@ select {
     border-radius: 3px;
     font-size: 0.75rem;
 }
+nav ul li{
+    display: inline-block;
+    text-align: center;
+}
