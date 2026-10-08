@@ -1,8 +1,15 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box
+}
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body {
     font-family: "Helvetica Neue" , Arial, sans-serif;
     font-size: 16px;
     line-height: 1.7;
+    margin: 0;
+    background-color: #fafafa;
 }
 header {
     background-color: hsl(67, 98%, 26%);
@@ -55,7 +62,7 @@ main h3 {
     font-weight: bold;
 }
 .project:nth-of-type(odd) {
-    background-color: rgb(222, 222, 165) ;
+    background-color: hsl(45, 60%, 96%) ;
 }
 .project:nth-of-type(even) {
     background-color: rgba(255, 255, 255, 0.856);
@@ -92,4 +99,24 @@ button:hover {
 }
 input[type="checkbox"] {
     width: auto;
+}
+main {
+    max-width: 920px;
+    margin: 0, auto;
+    padding: 40px 20px;
+}
+main section {
+    padding: 32px;
+    margin-bottom: 24px;
+    border: 1px solid#e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+main section h2::before {
+    content: "- ";
+    color: hsl(67, 98%, 26%);
+}
+#site-header {
+    padding: 60px 20px 40px;
+    border-bottom: 4px solid hsl(67, 98%, 26%);
 }
