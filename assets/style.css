@@ -133,8 +133,26 @@ text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     margin: 0 4px;
     border-radius: 4px;
 }
-input ::placeholder,
+input::placeholder,
 textarea::placeholder {
 color: #999999;
 font-style: italic;
+}
+.avatar {
+    width: 110px;
+    height: 110px;
+    border: 4px solid hsl(45, 90%, 50%);
+    border-radius: 50%;
+    float: left;
+    margin: 0 24px 12px 0;
+}
+#competenze {
+    clear: both;
+}
+#chi-sono p:first-of-type::first-letter {
+    font-size: 3rem;
+    font-weight: bold;
+    float: left;
+    margin-right: 6px;
+    color: #1F3D7A;
 }
