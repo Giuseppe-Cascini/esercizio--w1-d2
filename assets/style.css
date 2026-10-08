@@ -138,6 +138,11 @@ textarea::placeholder {
 color: #999999;
 font-style: italic;
 }
+input, 
+textarea,
+select {
+    background-color: #f5f7fb;
+}
 .avatar {
     width: 110px;
     height: 110px;
