@@ -215,3 +215,11 @@ nav ul li {
     display: inline-block;
     text-align: center;
 }
+table {
+    width: 400px;
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 2px solid black;
+}
