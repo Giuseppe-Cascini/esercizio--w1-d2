@@ -86,10 +86,14 @@ button {
     background-color:hsl(220, 60%, 30%);
     font-weight:bold;
     width: 30%;
-
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2 px 4px rgba(0, 0, 0, 0.1);
 }
 button:hover {
-    color: hsl(220, 60%, 45%)
+    color: hsl(220, 60%, 45%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 #site-footer {
     background-color:#172136 ;
@@ -114,9 +118,23 @@ main section {
 }
 main section h2::before {
     content: "- ";
-    color: hsl(67, 98%, 26%);
+    color: hsl(45, 90%, 50%);
 }
 #site-header {
     padding: 60px 20px 40px;
-    border-bottom: 4px solid hsl(67, 98%, 26%);
+    border-bottom: 4px solid hsl(45, 90%, 50%);
+}
+#site-header h1 {
+text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+#site-header nav {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 0 4px;
+    border-radius: 4px;
+}
+input ::placeholder,
+textarea::placeholder {
+color: #999999;
+font-style: italic;
 }
