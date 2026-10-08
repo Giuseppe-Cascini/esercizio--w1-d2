@@ -156,3 +156,13 @@ font-style: italic;
     margin-right: 6px;
     color: #1F3D7A;
 }
+.project:first-of-type h4::after {
+    content: "NEW";
+    display: inline-block;
+    padding: 2px 8px;
+    margin-left: 12px;
+    background-color: #F44A4A;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 0.75rem;
+}
