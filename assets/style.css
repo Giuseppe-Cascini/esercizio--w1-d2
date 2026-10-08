@@ -3,14 +3,17 @@
 *::after {
     box-sizing: border-box
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
-    font-family: "Helvetica Neue" , Arial, sans-serif;
+    font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 16px;
     line-height: 1.7;
     margin: 0;
     background-color: #fafafa;
 }
+
 header {
     background-color: hsl(67, 98%, 26%);
     background-image: url(https://picsum.photos/seed/picsum/1240/768);
@@ -19,96 +22,121 @@ header {
     color: #ffffff;
     text-align: center;
 }
+
 #site-header h1 {
     font-size: 2rem;
     font-weight: bold;
     font-style: italic;
 }
+
 .tagline {
     color: #F44A4A;
     font-style: italic;
 }
+
 nav a {
     color: hsl(67, 98%, 26%);
     font-weight: bold;
     line-height: 3;
 }
+
 nav a:hover {
     color: white;
     background-color: rgba(255, 255, 255, 0.15);
 }
-main h2, main h3{
+
+main h2,
+main h3 {
     color: #1F3D7A;
 }
+
 main h3 {
     font-size: 1.2rem;
 }
+
 #chi-sono {
     background-color: #ffffff;
     text-align: justify;
 }
-#chi-sono p:first-of-type {
+
+#chi-sono > p:first-of-type {
     font-size: 1.1em;
     font-style: italic;
     color: #1F3D7A;
 }
+
 .skill-list li:nth-child(odd) {
-    background-color:#f5f7fb;
+    background-color: #f5f7fb;
 }
+
 .skill-list li:nth-child(even) {
-    background-color:#ffffff;
+    background-color: #ffffff;
 }
+
 .skill-list li:first-child {
     font-weight: bold;
 }
+
 .project:nth-of-type(odd) {
-    background-color: hsl(45, 60%, 96%) ;
+    background-color: hsl(45, 60%, 96%);
 }
+
 .project:nth-of-type(even) {
     background-color: rgba(255, 255, 255, 0.856);
 }
+
 label {
     font-weight: bold;
     color: #1F3D7A;
 }
-input, textarea {
-    font-family: "Helvetica Neue" , Arial, sans-serif;
+
+input,
+textarea {
+    font-family: "Helvetica Neue", Arial, sans-serif;
     font-size: 1rem;
     width: 60%;
     background-color: #ffffff;
 }
-input:focus, textarea:focus {
-    background-color:#232323 ;
+
+input:focus,
+textarea:focus {
+    background-color: #232323;
     color: white;
 }
+
 button {
-    color:white;
-    background-color:hsl(220, 60%, 30%);
-    font-weight:bold;
+    color: white;
+    background-color: hsl(220, 60%, 30%);
+    font-weight: bold;
     width: 30%;
     padding: 12px 24px;
     border: none;
     border-radius: 4px;
     box-shadow: 0 2 px 4px rgba(0, 0, 0, 0.1);
 }
+
 button:hover {
     color: hsl(220, 60%, 45%);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
+
 #site-footer {
-    background-color:#172136 ;
+    background-color: #172136;
     color: #ffffff;
     text-align: center;
     font-size: 0.9rem;
 }
+
 input[type="checkbox"] {
     width: auto;
 }
+
 main {
     max-width: 920px;
     margin: 0, auto;
     padding: 40px 20px;
 }
+
 main section {
     padding: 32px;
     margin-bottom: 24px;
@@ -116,33 +144,40 @@ main section {
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
+
 main section h2::before {
     content: "- ";
     color: hsl(45, 90%, 50%);
 }
+
 #site-header {
     padding: 60px 20px 40px;
     border-bottom: 4px solid hsl(45, 90%, 50%);
 }
+
 #site-header h1 {
-text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+
 #site-header nav {
     display: inline-block;
     padding: 8px 16px;
     margin: 0 4px;
     border-radius: 4px;
 }
+
 input::placeholder,
 textarea::placeholder {
-color: #999999;
-font-style: italic;
+    color: #999999;
+    font-style: italic;
 }
-input, 
+
+input,
 textarea,
 select {
     background-color: #f5f7fb;
 }
+
 .avatar {
     width: 110px;
     height: 110px;
@@ -151,17 +186,20 @@ select {
     float: left;
     margin: 0 24px 12px 0;
 }
+
 #competenze {
     clear: both;
 }
-#chi-sono p:first-of-type::first-letter {
+
+#chi-sono > p:first-of-type::first-letter {
     font-size: 3rem;
     font-weight: bold;
     float: left;
     margin-right: 6px;
     color: #1F3D7A;
 }
-.project:first-of-type h4::after {
+
+.project:first-of-type h3::after {
     content: "NEW";
     display: inline-block;
     padding: 2px 8px;
@@ -171,7 +209,8 @@ select {
     border-radius: 3px;
     font-size: 0.75rem;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     text-align: center;
 }
